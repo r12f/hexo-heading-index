@@ -1,0 +1,35 @@
+{
+  "name": "hexo-heading-index",
+  "version": "1.0.0",
+  "description": "A hexo plugin for adding index to all headings.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/r12f/hexo-heading-index.git"
+  },
+  "keywords": [
+    "hexo",
+    "blog",
+    "heading",
+    "heading-index"
+  ],
+  "author": {
+    "name": "r12f",
+    "email": "r12f.code@gmail.com"
+  },
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/r12f/hexo-heading-index/issues"
+  },
+  "homepage": "https://github.com/r12f/hexo-heading-index#readme",
+  "dependencies": {
+    "cheerio": "^0.22.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  }
+}
