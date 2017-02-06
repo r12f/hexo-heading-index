@@ -1,6 +1,6 @@
 {
   "name": "hexo-heading-index",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A hexo plugin for adding index to all headings.",
   "main": "lib/index.js",
   "scripts": {
