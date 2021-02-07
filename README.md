@@ -22,6 +22,7 @@ heading_index:
   connector: "."
   global_prefix: ""
   global_suffix: ". "
+  start_level: 1
 ```
 
 ### Index styles
@@ -70,6 +71,28 @@ heading_index:
   connector: "."
   global_prefix: ""
   global_suffix: ") "
+```
+
+#### Start index
+Sometimes, we might want to use other tag than `<h1>` as the first heading. In this case, we could change the `start_level` in config or `heading_start_level` in post.
+
+For example, if we want to use `<h2>`, then we could change the `_config.yml`, which will take effect in all posts:
+```
+heading_index:
+  enable: true
+  index_styles: "{1} {1} {1} {1} {1} {1}"
+  connector: "."
+  global_prefix: ""
+  global_suffix: ". "
+  start_level: 2
+```
+
+Or change the post config, which will only take effect in the specific post:
+```
+---
+title: post title
+heading_start_level: 2
+---
 ```
 
 ## License
