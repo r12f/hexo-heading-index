@@ -106,6 +106,7 @@ Or change the post config, which will only take effect in the specific post:
 title: post title
 heading_disabled: true
 heading_start_level: 2
+heading_index_styles: "{A} {i} {1} {1} {1} {1}"
 ---
 ```
 
