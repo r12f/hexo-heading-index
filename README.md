@@ -24,6 +24,7 @@ heading_index:
   global_prefix: ""
   global_suffix: ". "
   start_level: 1
+  allow_html: false
 ```
 
 ### Index styles
